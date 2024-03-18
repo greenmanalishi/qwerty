@@ -1,5 +1,5 @@
 ---
-- name: ************+
+- name: primo play di prova
   hosts: all
   tasks:
     - name: vediamo un po che succede
