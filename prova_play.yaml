@@ -1,4 +1,7 @@
 ---
-- name: vediamo un po che succede
-  debug:
-    msg: "lallero lallo lallooooooooooooooooo"
+- name: ************+
+  hosts: all
+  tasks:
+    - name: vediamo un po che succede
+      debug:
+        msg: "lallero lallo lallooooooooooooooooo"
