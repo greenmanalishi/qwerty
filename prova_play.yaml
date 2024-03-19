@@ -1,6 +1,7 @@
 ---
 - name: primo play di prova
   hosts: all
+  gather_facts: false
   tasks:
     - name: vediamo un po che succede
       debug:
