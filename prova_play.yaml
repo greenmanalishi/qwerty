@@ -14,3 +14,8 @@
     - name: "*** DEPLOY ***"
       debug:
         msg: "Eseguito il deploy della app"
+
+    - name: Ensure terzo_file.md is copied to dest host
+      copy:
+        src: terzo_file.md
+        dest: /tmp/
