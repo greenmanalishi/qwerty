@@ -1,5 +1,5 @@
 ---
-- name: primo play di prova
+- name: primo play di finta pipeline CI/CD
   hosts: all
   gather_facts: false
   tasks:
@@ -13,4 +13,4 @@
 
     - name: "*** DEPLOY ***"
       debug:
-        msg: "Eseguito il deploy ella app"
+        msg: "Eseguito il deploy della app"
