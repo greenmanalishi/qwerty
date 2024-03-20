@@ -3,6 +3,14 @@
   hosts: all
   gather_facts: false
   tasks:
-    - name: vediamo un po che succede
+    - name: "*** BUILD ***"
       debug:
-        msg: "lallero lallo lallooooooooooooooooo"
+        msg: "Eseguita la build della app"
+
+    - name: "*** TEST ***"
+      debug:
+        msg: "Eseguiti i test della app"
+
+    - name: "*** DEPLOY ***"
+      debug:
+        msg: "Eseguito il deploy ella app"
