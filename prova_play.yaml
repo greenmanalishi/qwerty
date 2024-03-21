@@ -1,5 +1,5 @@
 ---
-- name: primo play di finta pipeline CI/CD
+- name: primo play di finta pipeline CI/CD lallero
   hosts: all
   gather_facts: false
   tasks:
